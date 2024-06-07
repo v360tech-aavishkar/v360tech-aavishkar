@@ -19,8 +19,8 @@
 
 		<style>
 			.custom-hover:hover {
-				background: transparent;
-				color: red;
+				background: transparent !important;
+				color: red !important;
 			}
 			.img {
 				padding: 90px;
@@ -40,7 +40,7 @@
 	<body>
 		<nav class="navbar" role="navigation" aria-label="main navbar">
 			<div class="navbar-brand">
-				<a class="navbar-item title"> Portfolio </a>
+				<p class="navbar-item title">Portfolio</p>
 				<a
 					role="button"
 					class="navbar-burger"
@@ -57,7 +57,9 @@
 			<div class="navbar-menu" id="Example">
 				<div class="navbar-end">
 					<a class="navbar-item custom-hover" href="#"> Home </a>
-					<a class="navbar-item custom-hover" href="./2.html"> Skills </a>
+					<a class="navbar-item custom-hover" href="./2.html">
+						Skills
+					</a>
 					<a class="navbar-item custom-hover"> About </a>
 					<a class="navbar-item custom-hover"> Contact </a>
 				</div>
@@ -83,39 +85,60 @@
 							<span class="icon is-large">
 								<span class="fa-stack fa-lg">
 									<i class="fas fa-circle fa-stack-2x"></i>
-									<i
-										class="fab fa-twitter fa-stack-1x fa-inverse"
-									></i>
+									<a
+										href="https://en.wikipedia.org/wiki/Twitter"
+										target="_blank"
+									>
+										<i
+											class="fab fa-twitter fa-stack-1x fa-inverse"
+										>
+										</i>
+									</a>
 								</span>
 							</span>
 							<span class="icon is-large">
 								<span class="fa-stack fa-lg">
 									<i class="fas fa-circle fa-stack-2x"></i>
-									<i
-										class="fab fa-facebook fa-stack-1x fa-inverse"
-									></i>
+									<a
+										href="https://en.wikipedia.org/wiki/Facebook"
+										target="_blank"
+									>
+										<i
+											class="fab fa-facebook fa-stack-1x fa-inverse"
+										></i>
+									</a>
 								</span>
 							</span>
 							<span class="icon is-large">
 								<span class="fa-stack fa-lg">
 									<i class="fas fa-circle fa-stack-2x"></i>
-									<i
-										class="fab fa-instagram fa-stack-1x fa-inverse"
-									></i>
+									<a
+										href="https://en.wikipedia.org/wiki/Instagram"
+									>
+										<i
+											class="fab fa-instagram fa-stack-1x fa-inverse"
+										></i>
+									</a>
 								</span>
 							</span>
 							<span class="icon is-large">
 								<span class="fa-stack fa-lg">
 									<i class="fas fa-circle fa-stack-2x"></i>
-									<i
-										class="fab fa-linkedin fa-stack-1x fa-inverse"
-									></i>
+									<a
+										href="https://en.wikipedia.org/wiki/LinkedIn_Learning"
+									>
+										<i
+											class="fab fa-linkedin fa-stack-1x fa-inverse"
+										></i>
+									</a>
 								</span>
 							</span>
 						</div>
 						<div class="buttons mt-4">
 							<button class="button is-primary is-wrap">
-								Download
+								<a href="skills-based-cv.pdf" download="resume">
+									Download CV
+								</a>
 							</button>
 						</div>
 					</div>
