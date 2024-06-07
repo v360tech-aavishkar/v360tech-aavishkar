@@ -19,8 +19,8 @@
 
 		<style>
 			.custom-hover:hover {
-				background: none;
-				color: rgb(231, 169, 90);
+				background: transparent;
+				color: red;
 			}
 			.img {
 				padding: 90px;
@@ -31,6 +31,11 @@
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
+				/* align-items: center; */
+			}
+			.icon-container {
+				display: flex;
+				gap: 1rem;
 			}
 		</style>
 	</head>
@@ -69,14 +74,14 @@
 						<div class="subtitle">
 							And I am <strong> Frontend Developer</strong>
 						</div>
-						<p>
+						<p class="pb-3">
 							Lorem ipsum dolor sit amet consectetur, adipisicing
 							elit. Eius voluptatibus eveniet dolorem quia,
 							adipisci nihil consequatur ad delectus libero?
 							Voluptatum autem non eaque exercitationem natus
 							adipisci facere ipsam ea quod.
 						</p>
-						<div class="icon-container pt-3">
+						<div class="icon-container">
 							<span class="icon is-large">
 								<span class="fa-stack fa-lg">
 									<i class="fas fa-circle fa-stack-2x"></i>
