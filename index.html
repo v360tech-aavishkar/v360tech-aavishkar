@@ -8,48 +8,101 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
 		/>
-		<!-- <script
+		<script
 			defer
 			src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
-		></script> -->
+		></script>
+		<link
+			rel="stylesheet"
+			href="path/to/font-awesome/css/font-awesome.min.css"
+		/>
+
 		<style>
-			.nav-item:hover {
-				.custom-nav {
-					background: none;
-					color: burlywood;
-				}
+			.custom-hover:hover {
+				background: none;
+				color: rgb(231, 169, 90);
 			}
 		</style>
 	</head>
 	<body>
-		<div class="container has-background-dark">
-			<nav class="navbar" role="navigation" aria-label="main navbar">
-				<div class="navbar-brand">
-					<div class="navbar-item">
-						<p class="title">Portfolio</p>
-					</div>
-					<a
-						role="button"
-						class="navbar-burger"
-						aria-label="main"
-						aria-expanded="false"
-						data-target="Example"
-					>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<!-- <span aria-hidden="true"></span> -->
-					</a>
-					<div class="navbar-menu" id="Example">
-						<div class="navbar-end">
-							<a class="navbar-item custom-nav"> Home </a>
-							<a class="navbar-item custom-nav"> Skills </a>
-							<a class="navbar-item custom-nav"> About </a>
-							<a class="navbar-item custom-nav"> Contact </a>
+		<nav class="navbar" role="navigation" aria-label="main navbar">
+			<div class="navbar-brand">
+				<a class="navbar-item title"> Portfolio </a>
+				<a
+					role="button"
+					class="navbar-burger"
+					aria-label="main"
+					aria-expanded="false"
+					data-target="Example"
+				>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+			<div class="navbar-menu" id="Example">
+				<div class="navbar-end">
+					<a class="navbar-item custom-hover"> Home </a>
+					<a class="navbar-item custom-hover"> Skills </a>
+					<a class="navbar-item custom-hover"> About </a>
+					<a class="navbar-item custom-hover"> Contact </a>
+				</div>
+			</div>
+		</nav>
+		<section class="section is-fullheight">
+			<div class="container">
+				<div class="columns">
+					<div class="column">
+						<div class="subtitle">Hello. It's me!</div>
+						<div class="title py-4">Alex</div>
+						<div class="subtitle">
+							And I am <strong> Frontend Developer</strong>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing
+							elit. Eius voluptatibus eveniet dolorem quia,
+							adipisci nihil consequatur ad delectus libero?
+							Voluptatum autem non eaque exercitationem natus
+							adipisci facere ipsam ea quod.
+						</p>
+						<div class="icon-container">
+							<span class="icon is-large">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i
+										class="fab fa-twitter fa-stack-1x fa-inverse"
+									></i>
+								</span>
+							</span>
+							<span class="icon is-large">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i
+										class="fab fa-facebook fa-stack-1x fa-inverse"
+									></i>
+								</span>
+							</span>
+							<span class="icon is-large">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i
+										class="fab fa-instagram fa-stack-1x fa-inverse"
+									></i>
+								</span>
+							</span>
+							<span class="icon is-large">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i
+										class="fab fa-linkedin fa-stack-1x fa-inverse"
+									></i>
+								</span>
+							</span>
 						</div>
 					</div>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</section>
 	</body>
 </html>
