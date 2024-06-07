@@ -8,33 +8,48 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"
 		/>
-		<script
+		<!-- <script
 			defer
 			src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
-		></script>
+		></script> -->
+		<style>
+			.nav-item:hover {
+				.custom-nav {
+					background: none;
+					color: burlywood;
+				}
+			}
+		</style>
 	</head>
 	<body>
-		<nav class="navbar" role="navigation" aria-label="main navbar">
-			<a
-				role="button"
-				class="navbar-burger"
-				aria-label="main"
-				aria-expanded="false"
-				data-target="Example"
-			>
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-			</a>
-			<div class="navbar-menu" id="Example">
-				<div class="navbar-end">
-					<a class="navbar-item"> Home </a>
-					<a class="navbar-item"> Skills </a>
-					<a class="navbar-item"> About </a>
-					<a class="navbar-item"> Contact </a>
+		<div class="container has-background-dark">
+			<nav class="navbar" role="navigation" aria-label="main navbar">
+				<div class="navbar-brand">
+					<div class="navbar-item">
+						<p class="title">Portfolio</p>
+					</div>
+					<a
+						role="button"
+						class="navbar-burger"
+						aria-label="main"
+						aria-expanded="false"
+						data-target="Example"
+					>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<span aria-hidden="true"></span>
+						<!-- <span aria-hidden="true"></span> -->
+					</a>
+					<div class="navbar-menu" id="Example">
+						<div class="navbar-end">
+							<a class="navbar-item custom-nav"> Home </a>
+							<a class="navbar-item custom-nav"> Skills </a>
+							<a class="navbar-item custom-nav"> About </a>
+							<a class="navbar-item custom-nav"> Contact </a>
+						</div>
+					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	</body>
 </html>
